@@ -1,0 +1,19 @@
+{
+  "name": "bb-plugin-codex-isolate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "bb": ">=0.43",
+    "bbPluginSdk": ">=0.4.21"
+  },
+  "bb": {
+    "name": "Codex isolate",
+    "description": "Give BB Codex its own CODEX_HOME so Cursor ChatGPT cannot pin writer locks on the same threads.",
+    "branding": {
+      "icon": "Lock"
+    },
+    "server": "./server.ts",
+    "skills": []
+  }
+}
